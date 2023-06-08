@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+create account
+</title>
+<link rel="stylesheet" type="text/css" href=" Css/account.css" />
+<style>
+    body
+    {
+    background: url(pizza17.jpg)no-repeat center center fixed;
+    background-attachment: fixed;  
+    background-size: cover;
+    }
+</style>
+</head>
+<body>
+<div class="head">
+<h1 class="account">Sign Up</h1>
+<form action="signup.php" method="POST">
+<label>First Name:</label>
+<input type="text" name="uname1" placeholder="" required><br/><br/>
+<label>Last Name:</label>
+<input type="text" name="uname2" placeholder="" required><br/><br/>
+<label>Email:</label>
+<input type="email" name="email" placeholder="" required><br/><br/>
+<div class="gender">
+Gender:   <input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" Value="Female">Female<br/><br/>
+</div>
+<label>Password:</label>
+<input type="Password" name="upswd1" placeholder="" required><br/><br/>
+<label>Confirm Password:</label>
+<input type="Password" name="upswd2" placeholder="" required><br/><br/>
+<input type="submit" class="submit" name="Submit" value="Create">
+</form>
+<p class="para">By clicking the Submit Button you Agree to our<br/><br/>
+<a href="#" class="condition">Terms and Conditions</a>  and  <a href="# " class="condition">Policy Privacy</a><br/><br/>
+<a href="loginform.html" class="already">Already have an account?</a>
+</div>
+</body>
+</html>
