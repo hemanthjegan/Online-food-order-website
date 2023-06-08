@@ -1,0 +1,73 @@
+h1
+{
+color:black;
+font-family:candara;
+
+}
+body
+{
+text-align:center;
+color:black;
+padding:140px;
+
+font-size:15px;
+margin-top:90px;
+
+}
+.submit
+{
+margin-left:50px;
+font-size:18px;
+}
+.login
+{
+margin-top:-100px;
+text-decoration:underline ;
+}
+#art2
+{margin-top:40px;
+font-size:20px;
+}
+.mail
+{
+margin-left:5px;
+}
+#art3
+{
+margin-left:-91px;
+}
+.password
+{
+    margin-left:19px;
+}
+.password1
+{
+    text-decoration:none;
+    margin-left:55;
+}
+.password1
+{
+transition:0.7s ease;
+}
+.password1:hover
+{
+color:#fb0000;
+}
+.account
+{
+    margin-left: 85px;
+transition:0.7s ease;
+}
+.account:hover
+{
+color:#fb0000;
+}
+.head
+{
+width:470px;
+height:380px;
+margin:auto;
+background-color:#DBE2E9;
+border-radius:17px; 
+opacity:calc(10);
+}
